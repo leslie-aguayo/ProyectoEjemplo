@@ -17,15 +17,15 @@
 						<h4 class="mt-4 mb-2 text-center">Calculadora de IMC</h4>
 						<div class="form-group">
 							<label for="peso">Peso</label> <input type="text"
-								class="form-control" id="peso" name="peso">
+								class="form-control" id="peso" name="peso" required>
 						</div>
 						<div class="form-group">
 							<label for="estatura">Estatura</label> <input type="text"
-								class="form-control" id="estatura" name="estatura">
+								class="form-control" id="estatura" name="estatura" required>
 						</div>
 						<div class="form-group">
 							<label for="edad">Edad</label> <input type="number"
-								class="form-control" id="edad" name="edad">
+								class="form-control" id="edad" name="edad" required>
 						</div>
 						<div class="text-center">
 							<input type="submit" class="btn btn-success" value="Calcular"
